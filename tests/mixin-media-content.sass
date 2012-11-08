@@ -1,0 +1,9 @@
+@mixin small-window
+	@media (max-width: 100px)
+		@content
+
+.awesome
+	width: 50%
+
+	@include small-window
+		width: 100px

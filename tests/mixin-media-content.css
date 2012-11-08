@@ -1,0 +1,5 @@
+.awesome {
+  width: 50%; }
+  @media (max-width: 100px) {
+    .awesome {
+      width: 100px; } }
